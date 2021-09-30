@@ -8,8 +8,8 @@ namespace FIghtsim
     {
       Char heroFighter = new Char("BABABBA");
       Char enemyFighter = new Char("DADAADDA");
-      Weapon enemyFighterWeapon = new Weapon("12");
-      Weapon heroFighterWeapon = new Weapon("13");
+      Weapon enemyFighterWeapon = new Weapon("DAMA");
+      Weapon heroFighterWeapon = new Weapon("BAMA");
 
       Console.WriteLine(heroFighter.name);
       Console.WriteLine(heroFighter.hp);
@@ -23,7 +23,7 @@ namespace FIghtsim
 
       Console.WriteLine(heroFighterWeapon.weaponName);
       Console.WriteLine(heroFighterWeapon.strength);
-      Console.ReadLine();
+
     }
   }
 }
