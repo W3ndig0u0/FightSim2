@@ -14,5 +14,6 @@ namespace FIghtsim
       strength = generator.Next(6, 12);
     }
 
+
   }
 }
